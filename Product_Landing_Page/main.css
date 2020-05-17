@@ -1,4 +1,5 @@
 /*NAVIGATION BAR POSITIONING*/
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap');
 
 .float-right {
     float: right;
@@ -15,18 +16,22 @@
     display: table;
     clear: both;
 }
+.nav-linkm {
+    margin-right: 40px;
+}
 
 body,
 ul {
     margin: 0;
     list-style-type: none;
+    overflow-x: hidden;
 }
 
 ul {
     padding: 10px;
     display: inline-block;
     vertical-align: middle;
-    width: 100%;
+    width: 100vw;
 }
 
 header {
@@ -59,22 +64,8 @@ header {
     color: dimgrey;
 }
 
-ul {}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*BODY CONTENT*/
 
 #flex-container {
     display: flex;
@@ -83,6 +74,8 @@ ul {}
 
 }
 
+
+/*INTRODUCTION*/
 
 #introduction {
     background-image: url(assets/Plumbus4.jpg);
@@ -94,25 +87,209 @@ ul {}
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    z-index: -1;
+    overflow-x: hidden;
+}
+
+#introduction-h,
+#introduction-p {
+    color: rgba(255, 135, 135, 0.94);
+    font-size: 18vw;
+    text-align: left;
+    font-family: heebo, sans-serif;
+    text-shadow: 1px -1px floralwhite;
+    margin: 0;
+    position: fixed;
+    width: 50%;
+    line-height: 14vw;
+}
+
+#introduction-p {
+    text-transform: uppercase;
+    top: 50vh;
+}
+
+/*FEATURES 1*/
+
+#features1 {
+    background-image: url(assets/Plumbus2.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
-
-h1,
-p {
+#features1-h,
+#features1-p {
     color: rgb(255, 221, 221);
-    font-size: 100px;
-    width: 100%;
+    font-size: 10vw;
     text-align: center;
-    font-family: proxima nova;
+    font-family: heebo, sans-serif;
     text-shadow: 1px -1px rgba(0, 0, 0, 0.54);
     font-weight: bolder;
     margin: 0;
 }
 
-p {
-    text-transform: uppercase;
-    margin-top: 300px;
+#features1-h {
+    color: white;
 }
+
+
+
+#features1-p {
+    font-size: 6vw;
+}
+
+#features-u {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 3.5vw;
+    text-align: right;
+    font-family: proxima nova, sans-serif;
+    text-shadow: 1px -1px rgba(0, 0, 0, 0.54);
+    font-weight: bolder;
+    margin: 0 auto;
+    list-style-type: none;
+    width: 50vw;
+}
+
+li {
+    margin: 3vw 0;
+}
+
+/*
+FEATURES 2
+*/
+
+#features2 {
+    background-image: url(assets/Plumbus1-bell.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    text-shadow: 2px -2px floralwhite;
+}
+
+
+#features2 > h2 {
+    color: rgba(255, 135, 135, 0.94);
+    font-family: heebo, sans-serif;
+    text-align: right;
+    width: 50vw;
+    font-size: 12vw;
+    margin-right: 20px;
+}
+
+
+
+
+/*FEATURES 3*/
+
+#features3 {
+    background-image: url(assets/Plumbus5.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+#features3>h2 {
+     color: rgba(255, 135, 135, 0.94);
+    font-family: heebo, sans-serif;
+    text-shadow: 1px -0.5px rgb(255, 250, 240);
+    text-align: left;
+    width: 40vw;
+    font-size: 14vw;
+}
+
+/*ORDER NOW*/
+#ordernow {
+    background-image: url(assets/PlumbusEnd.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#ordernow>h2 {
+    color: rgba(255, 135, 135, 0.94);
+    font-family: heebo, sans-serif;
+    text-shadow: 0.1px -2px white;
+    text-align: center;
+    width: 50vw;
+    font-size: 10vw;
+}
+
+
+/*
+STAY in touch
+*/
+
+
+#form-div {
+    background-color: rgba(255, 255, 255, 0.77);
+    height: 30vh;
+    width: 100%;
+
+
+}
+
+#form-div>h2 {
+    font-size: 4vw;
+    font-family: proxima nova;
+    text-align: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    background-color: rgba(249, 249, 249, 0)
+
+}
+
+#email, #textarea {
+    width: 30%;
+    margin-bottom: 20px;
+
+}
+
+#submit {
+    margin-bottom: 100px;
+    background-color: rgba(255, 135, 135, 0.94);
+    color: floralwhite;
+    font-size: 3vw;
+    border: none;
+    border-radius: 5px;
+    padding: 2vw;
+    font-family: proxima nova;
+}
+
+label {
+    margin-bottom: 5px;
+    font-family: proxima nova;
+
+}
+
+
