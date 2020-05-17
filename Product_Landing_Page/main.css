@@ -354,3 +354,45 @@ THIS WAS ADDED ONLY TO PASS THE TEST
         visibility: hidden;
     }
 }
+
+
+@media (min-width:1200px) {
+    .nav-link {
+        font-size: 40px;
+    }
+
+    #introduction-h,
+    #features2 > h2,
+    #features3 > h2 {
+        font-size: 200px;
+        width: 50%;
+    }
+
+    #features1 > h2 {
+        font-size: 100px;
+
+    }
+
+    #features1 > p {
+        font-size: 80px;
+    }
+
+    #features1 > ul {
+        font-size: 50px
+    }
+
+    #textarea,
+    #email {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    #textarea {
+        min-height: 160px;
+    }
+
+    label {
+        font-size: 30px;
+
+    }
+}
