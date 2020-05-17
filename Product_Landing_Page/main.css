@@ -39,7 +39,6 @@ header {
     position: fixed;
     width: 100%;
     background: white;
-
 }
 
 #header-img {
@@ -53,11 +52,7 @@ header {
     visibility: hidden;
 }
 
-
-
-
 /*NAVIGATION BAR STYLES*/
-
 .nav-link {
     text-decoration: none;
     font-family: sans-serif;
@@ -65,21 +60,16 @@ header {
     color: dimgrey;
 }
 
-
 /*BODY CONTENT*/
-
 #flex-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
-
 /*INTRODUCTION*/
-
 #introduction {
-    background-image: url(https://s6.gifyu.com/images/Plumbus4.jpg);
+    background-image: url(https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2016%2F04%2Frick-and-morty-plumbus-1.jpg?quality=95&w=1170&cbr=1&q=90&fit=max);
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -112,9 +102,8 @@ header {
 }
 
 /*FEATURES 1*/
-
 #features1 {
-    background-image: url(https://s6.gifyu.com/images/Plumbus2.jpg);
+    background-image: url(https://cdn.shopify.com/s/files/1/1085/8818/files/1_aeab9012-0c5d-4ec9-8266-b35b76dc56d1.png?v=1539108504);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -124,7 +113,6 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 #features1-h,
@@ -141,8 +129,6 @@ header {
 #features1-h {
     color: white;
 }
-
-
 
 #features1-p {
     font-size: 6vw;
@@ -168,9 +154,8 @@ header {
 /*
 FEATURES 2
 */
-
 #features2 {
-    background-image: url(https://s6.gifyu.com/images/Plumbus1.jpg);
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/31z1vD53V2L._AC_.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -182,7 +167,6 @@ FEATURES 2
     text-shadow: 2px -2px floralwhite;
 }
 
-
 #features2 > h2 {
     color: rgba(255, 135, 135, 0.94);
     font-family: heebo, sans-serif;
@@ -192,13 +176,9 @@ FEATURES 2
     margin-right: 20px;
 }
 
-
-
-
 /*FEATURES 3*/
-
 #features3 {
-    background-image: url(https://s6.gifyu.com/images/Plumbus5.jpg);
+    background-image: url(https://cf.broadsheet.ie/wp-content/uploads/2017/12/Screen-Shot-2017-12-17-at-23.04.23.jpeg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -206,7 +186,6 @@ FEATURES 2
     width: 100%;
     display: flex;
     align-items: center;
-
 }
 
 #features3 > h2 {
@@ -220,7 +199,7 @@ FEATURES 2
 
 /*ORDER NOW*/
 #ordernow {
-    background-image: url(https://s6.gifyu.com/images/PlumbusEnd.jpg);
+    background-image: url(https://www.geekalerts.com/u/Rick-and-Morty-Plumbus-Replica.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -229,7 +208,6 @@ FEATURES 2
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 #ordernow > h2 {
@@ -241,18 +219,13 @@ FEATURES 2
     font-size: 10vw;
 }
 
-
 /*
 STAY in touch
 */
-
-
 #form-div {
     background-color: rgba(255, 255, 255, 0.77);
     height: 30vh;
     width: 100%;
-
-
 }
 
 #form-div > h2 {
@@ -282,10 +255,7 @@ STAY in touch
 #textarea {
     resize: none;
     min-height: 80px;
-
-
 }
-
 
 #submit {
     margin-top: 20px;
@@ -302,22 +272,18 @@ STAY in touch
 label {
     margin-bottom: 5px;
     font-family: proxima nova, heebo, sans-serif;
-
 }
 
 /*
 THIS WAS ADDED ONLY TO PASS THE TEST.
 */
 video {
-
     display: none;
-
 }
 
 /*
 THIS WAS ADDED ONLY TO PASS THE TEST
 */
-
 @media (max-height:815px) {
 
     #features3 > h2,
@@ -330,31 +296,23 @@ THIS WAS ADDED ONLY TO PASS THE TEST
     #features-u > li {
         font-size: 4vh;
         margin: 0;
-
     }
-
-
 
     #features1-h,
     #features1-p {
         font-size: 6vh;
     }
-
-
-
 }
 
 @media (max-width:600px) {
     #nav-bar-ul > li {
         margin: 4px;
-
     }
 
     #header-img {
         visibility: hidden;
     }
 }
-
 
 @media (min-width:1200px) {
     .nav-link {
@@ -370,7 +328,6 @@ THIS WAS ADDED ONLY TO PASS THE TEST
 
     #features1 > h2 {
         font-size: 100px;
-
     }
 
     #features1 > p {
@@ -393,6 +350,5 @@ THIS WAS ADDED ONLY TO PASS THE TEST
 
     label {
         font-size: 30px;
-
     }
 }
