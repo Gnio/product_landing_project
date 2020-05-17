@@ -79,7 +79,7 @@ header {
 /*INTRODUCTION*/
 
 #introduction {
-    background-image: url(assets/Plumbus4.jpg);
+    background-image: url(https://s6.gifyu.com/images/Plumbus4.jpg);
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -114,7 +114,7 @@ header {
 /*FEATURES 1*/
 
 #features1 {
-    background-image: url(assets/Plumbus2.jpeg);
+    background-image: url(https://s6.gifyu.com/images/Plumbus2.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -170,7 +170,7 @@ FEATURES 2
 */
 
 #features2 {
-    background-image: url(assets/Plumbus1-bell.jpg);
+    background-image: url(https://s6.gifyu.com/images/Plumbus1.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -198,7 +198,7 @@ FEATURES 2
 /*FEATURES 3*/
 
 #features3 {
-    background-image: url(assets/Plumbus5.jpeg);
+    background-image: url(https://s6.gifyu.com/images/Plumbus5.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -220,7 +220,7 @@ FEATURES 2
 
 /*ORDER NOW*/
 #ordernow {
-    background-image: url(assets/PlumbusEnd.jpg);
+    background-image: url(https://s6.gifyu.com/images/PlumbusEnd.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
