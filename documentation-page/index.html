@@ -1,123 +1,129 @@
 <!DOCTYPE html>
-<html lang="">
-
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>Example Title</title>
     <meta name="author" content="Your Name">
     <meta name="description" content="Example description">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-scale=1">
     <link rel="stylesheet" href="main.css">
     <link rel="icon" type="image/x-icon" href="" />
 </head>
-
 <body>
-    <header>
-        <nav id="navbar">
-            <header>
+    <div id="nodio">
+        <div id="container">
+            <side>
+                <nav id="navbar">
+                    <header>
+                        <h1>Publishing your<br> website</h1>
+                    </header>
+                    <a href="#what_are_the_options?" class="nav-link">What are the options?</a>
+                    <a href="#hosting_and_domain" class="nav-link">Hosting and Domain</a>
+                    <a href="#github_and_google" class="nav-link">GitHub and Google</a>
+                    <a href="#using_codepen" class="nav-link">Using CodePen</a>
+                    <a href="#publishing_via_github" class="nav-link">Publishing via GitHub</a>
+                    <a href="#further_reading" class="nav-link">Further reading</a>
+                </nav>
+            </side>
+            <main id="main-doc">
                 <h1>Publishing your website</h1>
-            </header>
-            <a href="#what_are_the_options?" class="nav-link">What are the options?</a>
-            <a href="#hosting_and_domain" class="nav-link">Hosting and Domain</a>
-            <a href="#github_and_google" class="nav-link">GitHub and Google</a>
-            <a href="#using_codepen" class="nav-link">Using CodePen</a>
-            <a href="#publishing_via_github" class="nav-link">Publishing via GitHub</a>
-            <a href="#further_reading" class="nav-link">Further reading</a>
-        </nav>
-
-    </header>
-    <main id="main-doc">
-
-        <section id="what_are_the_options?" class="main-section">
-            <header>
-                <h1>What are the options?</h1>
-            </header>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-        </section>
-
-        <section id="hosting_and_domain" class="main-section">
-            <header>
-                <h2>Hosting and Domain</h2>
-            </header>
-        </section>
-        <p></p>
-        <ul>
-            <li></li>
-            <li></li>
-        </ul>
-        <p></p>
-        <p></p>
-        <img src="https://mdn.mozillademos.org/files/9469/ftp.jpg" alt="">
-        <h3></h3>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <section id="github_and_google" class="main-section">
-            <header>
-                <h2>GitHub and Google</h2>
-            </header>
-            <p></p>
-            <ul>
-                <li></li>
-                <li></li>
-            </ul>
-            <p></p>
-        </section>
-
-
-        <section id="using_codepen" class="main-section">
-            <header>
-                <h2>Using CodePen</h2>
-            </header>
-            <p></p>
-            <p></p>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            <img src="" alt="">
-        </section>
-
-        <section id="publishing_via_github" class="main-section">
-            <header>
-                <h1>Publishing via GitHub</h1>
-            </header>
-            <p></p>
-            <ol>
-                <li></li>
-                <li></li>
-                <li> <img src="" alt=""></li>
-                <li></li>
-                <li></li>
-            </ol>
-
-            <p><a href="https://help.github.com/categories/github-pages-basics/"></a></p>
-        </section>
-
-        <section id="further_reading" class="main-section">
-            <header>
-                <h1>Further reading</h1>
-            </header>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </section>
-
-    </main>
-    <footer></footer>
+                <p>Once you finish writing the code and organizing the files that make up your website, you need to put it all online so people can find it. This article explains how to get your simple sample code online with little effort.</p>
+                <section id="what_are_the_options?" class="main-section">
+                    <header>
+                        <h2>What are the options?</h2>
+                    </header>
+                    <p>Publishing a website is a complex topic because there are many ways to go about it. This article doesn't attempt to document all the possible methods. Instead, it explains the advantages and disadvantages of three approaches that are practical for beginners. Then it steps through one method that can work right away for many readers.</p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </section>
+                <section id="hosting_and_domain" class="main-section">
+                    <header>
+                        <h3>Hosting and Domain</h3>
+                    </header>
+                    <code></code>
+                    <code></code>
+                </section>
+                <p>To have more control over content and website appearance, most people choose to buy web hosting and a domain name:</p>
+                <ul>
+                    <li>Web hosting is rented file space on a hosting company's <a href="https://developer.mozilla.org/en-US/Learn/What_is_a_web_server">web server</a>. You put website files on the web server. The web server provides website content to website visitors.</li>
+                    <li>A <a href="https://developer.mozilla.org/en-US/Learn/Understanding_domain_names">domain name</a> is the unique address where people find your website, such as <code>http://www.mozilla.org</code> or <code>http://www.bbc.co.uk</code>. You can rent your domain name for as many years as you want from a domain registrar.</li>
+                </ul>
+                <p>Many professional websites go online this way.
+                </p>
+                <p>In addition, you will need a <a href="https://developer.mozilla.org/en-US/docs/Glossary/FTP">File Transfer Protocol (FTP)</a> program (see <a href="https://developer.mozilla.org/en-US/Learn/How_much_does_it_cost#Software"> How much does it cost: software</a> for more details) to actually transfer the website files over to the server. FTP programs vary widely, but generally, you have to connect to your web server using details provided by your hosting company (typically username, password, hostname). Then the program shows you your local files and the web server's files in two windows, and provides a way for you to transfer files back and forth.</p>
+                <img src="https://mdn.mozillademos.org/files/9469/ftp.jpg" alt="Example of FTP">
+                <h4>Tips for finding hosting and domains</h4>
+                <ul>
+                    <li>MDN does not promote specific commercial hosting companies or domain name registrars. To find hosting companies and registrars, just search for "web hosting" and "domain names". All registrars will have a feature to allow you to check if the domain name you want is available.</li>
+                    <li>Your home or office <a href="https://developer.mozilla.org/en-US/docs/Glossary/ISP">internet service provider</a> may provide some limited hosting for a small website. The available feature set will be limited, but it might be perfect for your first experiments.</li>
+                    <li>There are also free services available like <a href="https://neocities.org/">Neocities</a>, <a href="https://www.blogger.com/">Blogger</a>, and <a href="https://wordpress.com/">WordPress</a>. Sometimes you get what you pay for, but sometimes these resources are good enough for your initial experiments.</li>
+                    <li>Many companies provide hosting and domains.
+                    </li>
+                </ul>
+                <section id="github_and_google" class="main-section">
+                    <header>
+                        <h3>GitHub and Google</h3>
+                    </header>
+                    <p>Some tools let you publish your website online:
+                    </p>
+                    <ul>
+                        <li><a href="https://github.com/">GitHub</a> is a "social coding" site. It allows you to upload code repositories for storage in the <a href="http://git-scm.com/">Git</a> version control system. You can then collaborate on code projects, and the system is open-source by default, meaning that anyone in the world can find your GitHub code, use it, learn from it, and improve on it. GitHub has a very useful feature called GitHub Pages, which allows you to expose website code live on the web.</li>
+                        <li><a href="https://cloud.google.com/appengine/">Google App Engine</a> is a powerful platform that lets you build and run applications on Google’s infrastructure — whether you need to build a multi-tiered web application from scratch or host a static website. <code>See <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_do_you_host_your_website_on_Google_App_Engine">How do you host your website on Google App Engine?</a> for more information.</code></li>
+                    </ul>
+                    <p>These options are usually free, but you may outgrow the limited feature-set.
+                    </p>
+                </section>
+                <section id="using_codepen" class="main-section">
+                    <header>
+                        <h3>Using CodePen</h3>
+                    </header>
+                    <p>There are a number of web apps that emulate a website development environment, allowing you to enter HTML, CSS and JavaScript, and then display the result of that code as a website — all in one browser tab. Generally speaking, these tools are relatively easy, great for learning, good for sharing code (for example, if you want to share a technique with or ask for debugging help from colleagues in a different office), and free (for basic features). They host your rendered page at a unique web address. However, the features are limited, and these apps usually don't provide hosting space for assets (like images).</p>
+                    <p>Try playing with some of these examples to find out which one works best for you:
+                    </p>
+                    <ul>
+                        <li><a href="https://jsfiddle.net/">JSFiddle</a></li>
+                        <li><a href="https://glitch.com/">Glitch</a></li>
+                        <li><a href="http://jsbin.com/">JS Bin</a></li>
+                        <li><a href="https://codepen.io/">CodePen</a></li>
+                    </ul>
+                    <img src="https://mdn.mozillademos.org/files/9471/jsbin-screen.png" alt="JS Bin example">
+                </section>
+                <section id="publishing_via_github" class="main-section">
+                    <header>
+                        <h2>Publishing via GitHub</h2>
+                    </header>
+                    <p>Now let's examine how to easily publish your site via GitHub Pages.
+                    </p>
+                    <ol>
+                        <li>First of all, <a href="https://github.com/">sign up for GitHub</a> and verify your email address.
+                        </li>
+                        <li>Next, you need to <a href="https://github.com/new">create a repository</a> to store files.</li>
+                        <li>On this page, in the <span class="italic">Repository name </span>box, enter username.github.io, where username is your username. For example, our friend Bob Smith would enter <span class="italic">bobsmith.github.io.
+                                Check the "Initialize this repository with a README"</span> box. Then click <span class="italic">Create repository</span>. </li><img src="https://mdn.mozillademos.org/files/9479/github-create-repo.png" alt="GitHub Example">
+                        <li>
+                            <code>Note: Make sure your folder has an index.html file.
+                            </code></li>
+                        <li>Navigate your browser to username.github.io to see your website online. For example, for the username <span class="italic">chrisdavidmills</span>, go to <span class="italic">chrisdavidmills.github.io</span>.
+                            <code>Note: It may take a few minutes for your website to go live. If your website does not display immediately, wait a few minutes. Try again.</code></li>
+                    </ol>
+                    <p><code>To learn more, see <a href="https://help.github.com/categories/github-pages-basics/">GitHub Pages Help.</a></code></p>
+                </section>
+                <section id="further_reading" class="main-section">
+                    <header>
+                        <h2>Further reading</h2>
+                    </header>
+                    <ul>
+                        <li><a href="https://developer.mozilla.org/en-US/Learn/What_is_a_web_server">What is web server</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/Learn/Understanding_domain_names">Understanding domain names</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/Learn/How_much_does_it_cost">How much does it cost to do something on the web?</a></li>
+                        <li><a href="https://www.codecademy.com/learn/deploy-a-website">Deploy a Website</a>: A nice tutorial from Codecademy that goes a bit further and shows some additional techniques.</li>
+                        <li><a href="http://alignedleft.com/resources/cheap-web-hosting">Cheap or Free Static Website Hosting</a> by Scott Murray has some useful ideas on available services.</li>
+                    </ul>
+                </section>
+            </main>
+        </div>
+    </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
-
 </html>
