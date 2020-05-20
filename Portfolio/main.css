@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, whitesmoke, ghostwhite)
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-heading {
+    font-size: 150px;
+    font-family: gotham, gotham narrow, helvetica, sans-serif;
+}
+
+nav {
+    position: fixed;
+    background-color: rgb(255, 138, 156);
+    width: 100%;
+    padding: 1vh;
+    min-height: 20px;
+    font-size: 40px;
+    font-family: gotham narrow, helvetica, sans-serif;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: ghostwhite;
+    text-shadow: 0.5px 0.5px dimgray;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.dot {
+    color: rgb(255, 138, 156);
+}
+
+.we {
+    font-family: lucida handwriting;
+    font-size: 200px;
+    position: relative;
+    top: 120px;
+    right: 50px;
+    z-index: -1;
+    color: rgb(255, 138, 156);
+}
+
+h1 {
+    position: relative;
+    bottom: 90px;
+    z-index: -1;
+}
+
+.description {
+    font-size: 50px;
+    position: absolute;
+}
+
+code {
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 2px rgb(255, 138, 156);
+    font-weight: 500;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    =
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.section h2 {
+    margin-top: 200px;
+    font-size: 100px;
+    font-weight: 400;
+    font-family: gotham narrow, helvetica, sans-serif;
+    text-align: center;
+}
+
+.section p {
+    width: 60%;
+    margin: 0 auto;
+    font-family: gotham narrow, helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+#about,
+#contact {
+    background-color: rgb(255, 138, 156);
+    color: ghostwhite;
+    width: 100%;
+}
+
+#project-tile {
+    min-height: 100%;
+    display: flex;
+    flex-direction:
+}
+
+.img-containers {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
